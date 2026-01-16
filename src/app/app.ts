@@ -8,5 +8,4 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('smart-assist-project-l1-m2');
 }
