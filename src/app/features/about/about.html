@@ -1,1 +1,221 @@
-<p>about works!</p>
+<div class="manual-container">
+
+  <mat-card class="manual-card">
+
+    <!-- Title -->
+    <h1>Smart Assist – User Manual</h1>
+    <p class="subtitle">
+      Module 2: Introduction to Angular
+    </p>
+
+    <mat-divider></mat-divider>
+
+    <!-- About -->
+    <section>
+      <h2>1. About Smart Assist</h2>
+      <p>
+        Smart Assist is an Angular-based learning application designed to help
+        users understand the fundamentals of Angular and enterprise-ready
+        application development.
+      </p>
+      <p>
+        This project is part of <b>Module 2 – Introduction to Angular</b> and
+        focuses on building a functional Angular application with proper
+        structure, routing, and UI.
+      </p>
+    </section>
+
+    <!-- Learning Objectives -->
+    <section>
+      <h2>2. Module 2 – Learning Objectives</h2>
+      <ul>
+        <li>Set up Angular development environment</li>
+        <li>Understand Angular CLI and project scaffolding</li>
+        <li>Learn Angular application bootstrapping</li>
+        <li>Create and organize components</li>
+        <li>Implement basic routing</li>
+        <li>Use Angular Material for UI design</li>
+        <li>Follow enterprise-ready Angular architecture</li>
+      </ul>
+    </section>
+
+    <!-- Project Structure -->
+    <section>
+      <h2>3. Project Structure (Enterprise-Ready)</h2>
+      <p>
+        The Smart Assist application follows a feature-based, scalable Angular
+        architecture.
+      </p>
+
+      <pre>
+src/
+ └── app/
+     ├── core/        (Services, guards)
+     ├── shared/      (Reusable components)
+     ├── auth/        (Login module)
+     ├── dashboard/   (User dashboard)
+     ├── manual/      (User manual page)
+     ├── app-routing.module.ts
+     └── app.module.ts
+      </pre>
+
+      <p>
+        Key principles used:
+      </p>
+      <ul>
+        <li>Feature-based modules</li>
+        <li>Single Responsibility Principle</li>
+        <li>Clean separation of concerns</li>
+        <li>Enterprise-ready structure</li>
+      </ul>
+    </section>
+
+    <!-- Home Page -->
+    <section>
+      <h2>4. Home Page Components</h2>
+      <p>
+        The Home Page is built using three main components:
+      </p>
+
+      <ul>
+        <li>
+          <b>Header Component</b> – Displays the application title
+          <i>Smart Assist</i>
+        </li>
+        <li>
+          <b>Login Component</b> – Allows users to log in using hardcoded
+          credentials
+        </li>
+        <li>
+          <b>Footer Component</b> – Displays developer info and a User Manual
+          link
+        </li>
+      </ul>
+    </section>
+
+    <!-- Login -->
+    <section>
+      <h2>5. Login Functionality</h2>
+      <p>
+        The login feature is implemented using hardcoded credentials for
+        demonstration purposes.
+      </p>
+
+      <p><b>Sample Credentials:</b></p>
+      <ul>
+        <li>Username: <code>user</code></li>
+        <li>Password: <code>user123</code></li>
+      </ul>
+
+      <p>
+        On successful login, the user is redirected to the
+        <b>User Dashboard Main Page</b>.
+      </p>
+    </section>
+
+    <!-- Dashboard -->
+    <section>
+      <h2>6. User Dashboard</h2>
+      <p>
+        The User Dashboard is displayed after successful login and serves as the
+        main landing page for the user.
+      </p>
+      <ul>
+        <li>Confirms successful authentication</li>
+        <li>Demonstrates routing functionality</li>
+        <li>Acts as a base for future feature expansion</li>
+      </ul>
+    </section>
+
+    <!-- Angular Concepts -->
+    <section>
+      <h2>7. Angular Concepts Covered</h2>
+
+      <h3>Data Binding</h3>
+      <ul>
+        <li>Interpolation</li>
+        <li>Property Binding</li>
+        <li>Event Binding</li>
+        <li>Two-Way Binding</li>
+      </ul>
+
+      <h3>Component Communication</h3>
+      <ul>
+        <li><code>@Input()</code></li>
+        <li><code>@Output()</code> with <code>EventEmitter</code></li>
+      </ul>
+    </section>
+
+    <!-- Routing -->
+    <section>
+      <h2>8. Routing & Navigation</h2>
+      <p>
+        Angular Router is used to navigate between pages in the application.
+      </p>
+
+      <ul>
+        <li><code>/login</code> – Login page</li>
+        <li><code>/dashboard</code> – User dashboard</li>
+        <li><code>/manual</code> – User manual page</li>
+      </ul>
+    </section>
+
+    <!-- UI -->
+    <section>
+      <h2>9. UI & Styling</h2>
+      <p>
+        Angular Material components are used to build a clean and responsive UI.
+      </p>
+      <ul>
+        <li>Toolbar</li>
+        <li>Buttons</li>
+        <li>Cards</li>
+        <li>Form Fields</li>
+      </ul>
+    </section>
+
+    <!-- Evaluation -->
+    <section>
+      <h2>10. Evaluation Criteria</h2>
+
+      <h3>AC#1 – Functional Application</h3>
+      <ul>
+        <li>Login page is available and functional</li>
+        <li>Hardcoded login works correctly</li>
+        <li>Routing is implemented</li>
+        <li>User dashboard loads after login</li>
+        <li>Responsive UI</li>
+      </ul>
+
+      <h3>AC#2 – Code Quality & Repository</h3>
+      <ul>
+        <li>Public GitHub repository</li>
+        <li>Proper Angular project structure</li>
+        <li>Minimum 2–3 meaningful commits</li>
+        <li>Project runs without errors</li>
+      </ul>
+    </section>
+
+    <!-- Run -->
+    <section>
+      <h2>11. How to Run the Application</h2>
+      <pre>
+npm install
+ng serve
+      </pre>
+      <p>
+        Open the browser and navigate to:
+        <code>http://localhost:4200</code>
+      </p>
+    </section>
+
+    <!-- Footer -->
+    <mat-divider></mat-divider>
+
+    <p class="footer-note">
+      © Smart Assist | Module 2 – Introduction to Angular
+    </p>
+
+  </mat-card>
+
+</div>
