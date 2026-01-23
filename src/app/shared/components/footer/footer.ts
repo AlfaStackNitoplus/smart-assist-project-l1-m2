@@ -13,7 +13,7 @@ export class Footer {
   constructor(private router: Router) { }
  onAbout() {
     const url = this.router.serializeUrl(
-    this.router.createUrlTree(['/smart-assist-project-l1-m2/about'])
+    this.router.createUrlTree(['/#/about'])
   );
   window.open(url, '_blank');
   }
