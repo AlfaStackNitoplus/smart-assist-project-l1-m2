@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { MatButton } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { Router } from '@angular/router';
@@ -10,14 +10,20 @@ import { Router } from '@angular/router';
   styleUrl: './footer.scss',
 })
 export class Footer {
+  @Input() develop: string = '';
+
   constructor(private router: Router) { }
-  onAbout() {
+  onUserManual() {
     window.open(
-      '/smart-assist-project-l1-m2/#/about',
+      '/smart-assist-project-l1-m2/#/user-manual',
       '_blank'
     );
-
   }
-
+  onTechnicalDetails() {
+    window.open(
+      '/smart-assist-project-l1-m2/#/technical-details-learnt',
+      '_blank'
+    );
+  }
 
 }

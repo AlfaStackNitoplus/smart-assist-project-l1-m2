@@ -5,14 +5,14 @@ import { MatDividerModule } from '@angular/material/divider';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-about',
-  imports: [ CommonModule,
+  selector: 'app-technical-details-learnt',
+  imports: [CommonModule,
     RouterModule,
     MatCardModule,
     MatDividerModule],
-  templateUrl: './about.html',
-  styleUrl: './about.scss',
+  templateUrl: './technical-details-learnt.html',
+  styleUrl: './technical-details-learnt.scss',
 })
-export class About {
+export class TechnicalDetailsLearnt {
 
 }
