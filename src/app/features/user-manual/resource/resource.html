@@ -1,0 +1,47 @@
+<div class="manual-container">
+    <mat-card class="manual-card">
+
+        <!-- Title -->
+        <h1>Project Folder Structure – L1M2</h1>
+        <mat-divider></mat-divider>
+        <!-- Project Structure -->
+        <section>
+            <p>
+                The application follows a <b>feature-based and scalable folder structure</b>,
+                separating core components, layouts, and feature modules.
+            </p>
+
+            <pre class="project-structure">
+src/
+ └── app/
+     ├── core/
+     │   ├── components/
+     │   │   ├── header/
+     │   │   └── footer/
+     │   └── services/
+     │
+     ├── layouts/
+     │   ├── auth-layout/
+     │   └── main-layout/
+     │
+     ├── features/
+     │   ├── auth/
+     │   │   └── login/
+     │   ├── dashboard/
+     │   └── user-manual/
+     │
+     ├── app-routing.module.ts
+     ├── app.component.ts
+     └── app.config.ts
+      </pre>
+
+            <ul>
+                <li><b>Core</b>: Shared components like Header & Footer</li>
+                <li><b>Layouts</b>: Separate layouts for authentication and main app</li>
+                <li><b>Features</b>: Business modules such as Login, Dashboard, User Manual</li>
+                <li><b>Routing</b>: Centralized route configuration</li>
+            </ul>
+        </section>
+
+    </mat-card>
+</div>

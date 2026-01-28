@@ -25,5 +25,10 @@ export class Footer {
       '_blank'
     );
   }
-
+onUsefulResources() {
+    window.open(
+      '/smart-assist-project-l1-m2/#/resource',
+      '_blank'
+    );
+  }
 }
